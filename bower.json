@@ -1,0 +1,19 @@
+{
+  "name": "browserify-react",
+  "version": "0.0.0",
+  "authors": [
+    "dtothefp <dtothefp@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "react": "~0.11.2"
+  }
+}
