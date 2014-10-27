@@ -17,7 +17,7 @@ module.exports = {
         filter: 'isFile'
       },
       {
-        src: ['public/css/lego.css'],
+        src: ['public/css/lego.{css, css.map}'],
         dest: 'dist/css/',
         flatten: true,
         expand: true
