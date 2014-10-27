@@ -16,7 +16,7 @@ module.exports = {
     files: [
       {
         src: './node_modules/lego/src/scss/*.scss',
-        dest: './dist/css/lego.css'
+        dest: './public/css/lego.css'
       }
     ]
   }

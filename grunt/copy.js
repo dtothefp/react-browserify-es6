@@ -1,10 +1,6 @@
 var config = require('./config');
 
 module.exports = {
-  options: {
-    flatten: true,
-    expand: true
-  },
   dev: {
     files: [
       {
@@ -15,10 +11,16 @@ module.exports = {
       },
       {
         src: ['public/img/**'],
-        dest: 'dist/img',
+        dest: 'dist/img/',
         flatten: true,
         expand: true,
         filter: 'isFile'
+      },
+      {
+        src: ['public/css/lego.css'],
+        dest: 'dist/css/',
+        flatten: true,
+        expand: true
       }
     ]
   },
