@@ -4,10 +4,7 @@ module.exports = {
   },
   dev: {
     options: {
-      base: 'dist/',
-      open: {
-        target: 'http://localhost:8080'
-      }
+      base: 'dist/'
     }
   }
 };

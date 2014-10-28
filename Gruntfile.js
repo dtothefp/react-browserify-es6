@@ -6,8 +6,8 @@ module.exports = function(grunt) {
       }
     },
     init: true,
-    data: {nodeModuleDir: 'node_modules/'},
-    postProcess: function(config) {
+    data: {
+      config: require('./grunt/config')
     }
   });
 

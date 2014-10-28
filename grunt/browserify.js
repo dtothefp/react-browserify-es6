@@ -1,4 +1,3 @@
-var config = require('./config');
 var shims = require("./browserify-config/shim"),
   sharedModules = Object.keys(shims).concat([]);
 
@@ -18,7 +17,7 @@ module.exports = {
       }
     },
     src: ['./public/scripts/init.jsx'],
-    dest: config.dest.js
+    dest: '<%= config.dest.js %>'
   },
   lib: {
     options: {

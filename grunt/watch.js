@@ -1,8 +1,6 @@
-var config = require('./config');
-
 module.exports = {
   sass: {
-    files: config.src.sass,
+    files: '<%= config.src.sass %>',
     tasks: ['sass:dev']
   },
   jshint: {

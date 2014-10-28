@@ -1,5 +1,3 @@
-var config = require('./config');
-
 module.exports = {
   options: {
     compass: true
@@ -7,8 +5,8 @@ module.exports = {
   dev: {
     files: [
       {
-        src: config.src.sass,
-        dest: config.dest.sass
+        src: '<%= config.src.sass %>',
+        dest: '<%= config.dest.sass %>'
       }
     ]
   },
@@ -16,7 +14,7 @@ module.exports = {
     files: [
       {
         src: './node_modules/lego/src/scss/*.scss',
-        dest: './public/css/lego.css'
+        dest: './dist/css/lego.css'
       }
     ]
   }

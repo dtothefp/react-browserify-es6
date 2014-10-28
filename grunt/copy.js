@@ -1,5 +1,3 @@
-var config = require('./config');
-
 module.exports = {
   dev: {
     files: [
@@ -15,12 +13,6 @@ module.exports = {
         flatten: true,
         expand: true,
         filter: 'isFile'
-      },
-      {
-        src: ['public/css/lego.{css, css.map}'],
-        dest: 'dist/css/',
-        flatten: true,
-        expand: true
       }
     ]
   },
