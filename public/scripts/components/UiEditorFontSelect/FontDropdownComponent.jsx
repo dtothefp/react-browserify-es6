@@ -1,6 +1,7 @@
 /** @jsx React.DOM */
 
-var React = require('react');
+var React = require('react'),
+  ReactAddons = require('react/addons').addons;
 
 class FontDropdwonComponentClass {
   handleClick(e) {
@@ -8,7 +9,7 @@ class FontDropdwonComponentClass {
     this.props.onSelect(this.props.uid);
   }
   render() {
-    var cx = React.addons.classSet;
+    var cx = ReactAddons.classSet;
     var classNames = cx({
       'lego-dropdown__block-link': true,
       'hide-dropdown-item': this.props.active

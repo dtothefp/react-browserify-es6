@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 var lodash = require("lodash"),
-  jquery = require("jquery"),
-  react = require("react");
+  jquery = require("jquery");
+/* jshint ignore:end */

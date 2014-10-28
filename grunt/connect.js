@@ -1,9 +1,8 @@
 module.exports = {
   options: {
-    port: 8080,
-    livereload: 35729,
+    port: 8080
   },
-  livereload: {
+  dev: {
     options: {
       base: 'dist/',
       open: {

@@ -12,6 +12,6 @@ module.exports = function(grunt) {
   });
 
 	// The development server (the recommended option for development)
-	grunt.registerTask('default', ['sass', 'browserify:lib', 'browserify:app', 'copy:dev', 'connect', 'watch']);
+	grunt.registerTask('default', ['sass', 'jshint', 'browserify:lib', 'browserify:app', 'copy:dev', 'connect', 'browserSync', 'watch']);
 
 };

@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var Editor = require('./Editor');
+var Editor = require('./components/Editor');
 var React = require('react');
 
 

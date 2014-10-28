@@ -2,8 +2,9 @@
 
 var React = require('react'),
   _ = require('lodash'),
+  ReactAddons = require('react/addons').addons,
   FontDropdownComponent = require('./FontDropdownComponent');
-
+  
 class UiEditorFontSelectClass {
   getInitialState() {
     var fonts = [
@@ -33,7 +34,7 @@ class UiEditorFontSelectClass {
     this.setState(_.extend({}, this.state, {activeFontSize: e.target.value}));
   }
   render() {
-    var cx = React.addons.classSet
+    var cx = ReactAddons.classSet;
     var dropDownClassNames = cx({
       'lego-dropdown': true,
       'show-dropdown': this.state.showDropdown

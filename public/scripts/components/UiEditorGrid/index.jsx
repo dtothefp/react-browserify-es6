@@ -1,13 +1,13 @@
 /** @jsx React.DOM */
 
-var React = require('react')
-  TextAlignComponent = require('./TextAlignComponent')
+var React = require('react'),
+  TextAlignComponent = require('./TextAlignComponent');
 
 class UiEditorGridClass {
   getInitialState() {
     return {
       activeMenuItemUid: false
-    }
+    };
   }
   handleTextAlignClick(uid) {
     this.setState({activeMenuItemUid: uid});

@@ -11,7 +11,7 @@
         "waitsFor": false,
         "runs": false
     },
-
+    "predef": [ "-Promise" ],
     "node" : true,
     "esnext" : true,
     "browser" : true,
